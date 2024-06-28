@@ -6,7 +6,12 @@ class PageOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text('HI GitHub'),),
+      body: Column(
+        children: [
+          Center(child: Text('HI GitHub'),
+          ),
+        ],
+      ),
 
     );
   }
