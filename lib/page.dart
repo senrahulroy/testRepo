@@ -10,6 +10,8 @@ class PageOne extends StatelessWidget {
         children: [
           Center(child: Text('HI GitHub'),
           ),
+
+          Text('After solve all issue with conflig')
         ],
       ),
 
